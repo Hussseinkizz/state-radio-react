@@ -1,0 +1,46 @@
+{
+  "name": "state-radio-react",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A react hook for working state radio in react, a state management library that let's you tune to your application state like a radio set!",
+  "main": "index.jsx",
+  "module": "index.jsx",
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "state-radio": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hussseinkizz/state-radio-react.git"
+  },
+  "keywords": [
+    "local",
+    "storage",
+    "react",
+    "kizz",
+    "useLocalStorage",
+    "state",
+    "state management",
+    "signals",
+    "pubsub",
+    "storage",
+    "js"
+  ],
+  "author": "Hussein Kizz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hussseinkizz/state-radio-react/issues"
+  },
+  "homepage": "https://github.com/Hussseinkizz/state-radio-react#readme"
+}
