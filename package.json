@@ -1,12 +1,15 @@
 {
   "name": "state-radio-react",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "type": "module",
-  "description": "A react hook for working state radio in react, a state management library that let's you tune to your application state like a radio set!",
+  "description": "A react hook for working with state radio in react, a state management library that let's you tune to your application state like a radio set!",
   "main": "index.jsx",
   "module": "index.jsx",
+  "types": "index.d.ts",
   "files": [
-    "dist"
+    "src",
+    "index.jsx",
+    "index.d.ts"
   ],
   "directories": {
     "example": "example"
@@ -18,7 +21,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "state-radio": "^1.0.4"
+    "state-radio": "^1.0.5"
   },
   "repository": {
     "type": "git",

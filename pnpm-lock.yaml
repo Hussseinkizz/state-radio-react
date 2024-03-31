@@ -12,8 +12,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   state-radio:
-    specifier: ^1.0.4
-    version: 1.0.4
+    specifier: ^1.0.5
+    version: 1.0.5
 
 devDependencies:
   '@types/react':
@@ -84,8 +84,8 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /state-radio@1.0.4:
-    resolution: {integrity: sha512-MIGBJE+oSv9l41Z4wdcnB+k30bFKXHN7VGb8f/xDU+xPeo95Jau896KHmuREOA2LOHZ/hEQNec8MJZR5BLtQPw==}
+  /state-radio@1.0.5:
+    resolution: {integrity: sha512-O0pfF4tpITEh9VHk86dO8u9yIUmYDG+KSELnVjxpyqAcV2A6guSqrqwaEoXv2Fi3Epb2wAts94QupwDCMNI6LA==}
     dependencies:
       '@kizz-js/use-local-storage': 1.0.3
     dev: false
