@@ -1,6 +1,6 @@
 {
   "name": "state-radio-react",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "description": "A react hook for working with state radio in react, a state management library that let's you tune to your application state like a radio set!",
   "main": "index.jsx",

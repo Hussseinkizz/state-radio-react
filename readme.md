@@ -2,9 +2,13 @@
 
 A state management library that let's you tune to your state channels via subscriptions and listen to state updates with fine tuned simplicity.
 
-Here is a guide on how to use it specifically in react, spoiler, it's more performant than react context given react rerenders all your components on change if they share the same context provider, but here we only rerender the single component that depends on the changed state,very modular and fine grained and this is a more easy and enjoyable solution to work with state in whatever framework you use, try it yourself.
+Here is a guide on how to use it specifically in react, spoiler, it's more performant than react context given react rerenders all your components on change if they share the same context provider, but here we only rerender the single component that depends on the changed state, very modular and fine grained way to work with state in whatever framework you use.
 
-💡Note: here we will only show react usage, for full usage, please check the [state radio docs](https://github.com/Hussseinkizz/state-radio)
+This might not be so much of performance upgrade for signal based frameworks which use signals or simillar reactive mechanisms to manage state, but for react sure it's a big difference, try it yourself for comparison, run the setup in example by cloning this repo, cd to example and install dependencies then run, and you will see something like this, you can then measure rerenders using profiler from react dev tools extension.
+
+![demo screenshot](./radio-vs-context.png)
+
+💡Note: here we will only show react usage, for full usage of state radio state manager, please check the [state radio docs](https://github.com/Hussseinkizz/state-radio)
 
 ## ▶️ Installation
 
@@ -57,8 +61,6 @@ export default function Counter() {
 ```
 
 That's it, for more things you can do with this new found power, check the detailed documentation here [state radio docs](https://github.com/Hussseinkizz/state-radio)
-
-And here is also a live playground to see it in action: [demo](foo)
 
 That's it, play around, enjoy the radio show!!!
 

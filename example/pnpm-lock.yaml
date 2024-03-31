@@ -15,8 +15,8 @@ dependencies:
     specifier: ^1.0.5
     version: 1.0.5
   state-radio-react:
-    specifier: ^1.0.5
-    version: 1.0.5
+    specifier: ^1.0.6
+    version: 1.0.6
 
 devDependencies:
   '@types/react':
@@ -1799,8 +1799,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /state-radio-react@1.0.5:
-    resolution: {integrity: sha512-kj4kuvDxXxZumu7Xby5kDIcr2TFaVqhlvmw5HjFytMTPxBvsK68Cwh17oSKGFx+jwOMNO9YycxLZdbqjpdYARw==}
+  /state-radio-react@1.0.6:
+    resolution: {integrity: sha512-yQnEH6Eqwy49EznMIFBuxcFx4vJ/F2o94JzNpoxT6VOy7k9pHtxGLYM2iUGJrhAwL0rHL5gFSuRGNxs7OGTkfQ==}
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)

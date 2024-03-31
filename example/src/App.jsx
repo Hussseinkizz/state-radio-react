@@ -6,7 +6,7 @@ import { ToDo } from './components/todo';
 function App() {
   return (
     <section className="container">
-      <h1>hello react</h1>
+      <h1>State Radio</h1>
       <Texter />
       <ToDo />
       <CounterA />

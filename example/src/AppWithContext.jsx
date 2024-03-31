@@ -17,7 +17,7 @@ function AppWithContext() {
   return (
     <StoreProvider initialState={initialState}>
       <section className="container">
-        <h1>hello react</h1>
+        <h1>React Context</h1>
         <Texter2 />
         <ToDo2 />
         <CounterA2 />
